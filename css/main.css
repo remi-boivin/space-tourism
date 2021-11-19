@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(../assets/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fa-jedi-order,
+.fa-bars {
+    font-size: 45px;
+    color: white;
+}
+
+.item-1 {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.item-2 {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+.item-3 {
+    grid-column: 6;
+    grid-row: 3;
+}
+
+.item-4 {
+    grid-column: 6;
+    grid-row: 4;
+}
+
+nav {
+    grid-template-columns: 38.44vmin 38.44vmin;
+}
+
+nav {
+    display: grid;
+    width: 100%;
+}
+
+header .row {
+    padding: 5% 5% 0 5%;
+    z-index: 999999 !important;
+    width: 100vmin;
+    height: 53.5vmin;
+    color: white;
+    display: none;
+    text-align: left !important;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+    color: white;
+}
+
+main .row {
+    position: fixed;
+    margin: 6.4vmin 6.4vmin 0;
+    text-align: center;
+}
+
+.item {
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-jedi-order, .fa-bars {
+    padding: 5.7vmin 6.3vmin 6.3vmin 6.3vmin ;
+}
+
+.fa-jedi-order,
+.fa-bars {
+    font-size: 12vmin;
+    color: white;
+}
+
+.fa-jedi-order {
+    grid-area: fa-jedi-order;
+}
+
+.fa-bars {
+    grid-area: fa-bars;
+}
+
+.item-1 {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.item-2 {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+.item-3 {
+    grid-column: 6;
+    grid-row: 3;
+}
+
+.item-4 {
+    grid-column: 6;
+    grid-row: 4;
+}
+
+nav {
+    display: grid;
+    grid-template-areas:
+        "fa-jedi-order fa-jedi-order fa-bars";
+}
+
+
+nav {
+    display: grid;
+    width: 100%;
+}
+
+main {
+    color: white;
+}
+
+#space {
+    position: fixed;
+    margin: 6.4vmin 6.4vmin 0 6vmin;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100vmin;
+    height: 133.6vmin;
+}
+
+#space h3 {
+    font-family: 'Barlow Condensed';
+    font-size: 4.2vmin;
+}
+
+#space p {
+    padding: 0 6.4vmin 0 0 !important;
+    font-family: "Barlow";
+    font-size: 4vmin;
+    line-height: 8.699vmin;
+    width: 89vmin;
+}
+
+#space h1 {
+    /* padding: 23px; */
+    padding: 6vmin;
+    font-size: 21.2vmin;
+    font-family: 'Bellefair';
+    height: 74.75vmin;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+#space div {
+    height:134.19vmin;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#space div a {
+    margin: -0.90vmax 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 40vmin;
+    height: 40vmin;
+    text-decoration: none;
+    border-radius: 50%;
+}
